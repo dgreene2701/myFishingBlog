@@ -1,0 +1,140 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    background: black;
+     color: #fff;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header h1, header h2, header p {
+  float: left;
+  padding: .5em;
+  margin: 0px;
+}
+header h2{
+  padding: .9em;
+  font-weight: normal;
+  font-style: italic;
+}
+header div{
+  padding: 1em;
+  float:right;
+}
+
+header {
+  background: #548094;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#img-section {
+  float: left;
+}
+#img-section img{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#blog-section{
+  background-color: #548094;
+  float: left;
+  width: 70%;
+  padding: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+#blog-section .post{
+  background-color: lightgrey;
+  min-height: 400px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#blog-section .post h3 {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2em;
+  padding-top: .5em;
+}
+#blog-section .postText {
+  width: 80%;
+  background-color: grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+}
+#blog-section .postText p {
+  padding: 1em;
+}
