@@ -76,7 +76,7 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-header h1, header h2, header p {
+header h1, header h2, header div p {
   float: left;
   padding: .5em;
   margin: 0px;
@@ -92,49 +92,64 @@ header div{
 }
 
 header {
-  background: #548094;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  float:left;
+  background: rgba(100,100,100,.6);
+  width: 100%;
 }
 #img-section {
-  float: left;
+  background-image: url("../img/fishermen.jpeg");
+  background-size: cover;
+  height: 0;
+  padding-bottom: 66.5%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
 }
 #img-section img{
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  float:left;
+  width: 100%;
+  opacity: .5;
+  margin: 0 0 0 0;
 }
 #blog-section{
   background-color: #548094;
   float: left;
-  width: 70%;
-  padding: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-
+  width: 100%;
 }
 #blog-section .post{
-  background-color: lightgrey;
-  min-height: 400px;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  background-size: cover;
+  width: 50%;
+  float: left;
+  height: 300px;
 }
-#blog-section .post h3 {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 2em;
-  padding-top: .5em;
+#blog-section .post .postHeadline h3 {
+  text-align: center;
+  vertical-align: bottom;
 }
-#blog-section .postText {
-  width: 80%;
-  background-color: grey;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 100%;
+#blog-section .post.one{
+  background-image: url("../img/IMG_1460.jpeg");
 }
-#blog-section .postText p {
+#blog-section .post.two{
+  background-image: url("../img/IMG_1489.jpeg");
+}
+#blog-section .post.three{
+  background-image: url("../img/IMG_1491.jpeg");
+}
+#blog-section .post.four{
+  background-image: url("../img/IMG_1514.jpeg");
+}
+
+#blog-section .postHeadline {
   padding: 1em;
+  background: rgba(0,0,0, .4);
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+#blog-section a{
+  text-decoration: none;
+}
+
+#blog-section .postHeadline:hover{
+  background: rgba(0,0,0, 0);
 }
