@@ -153,3 +153,24 @@ header {
 #blog-section .postHeadline:hover{
   background: rgba(0,0,0, 0);
 }
+footer .left {
+  float: left;
+  padding-top: 1.6em;
+  padding-left: 5em;
+}
+footer .left a {
+  color: white;
+  text-decoration: none;
+}
+footer .right {
+  float: right;
+}
+footer .right img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 3em;
+  padding-left: 2em;
+}
+footer .right img:last-of-type {
+  padding-right: 5em;
+}
