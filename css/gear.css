@@ -1,0 +1,27 @@
+body {
+  background-color: #548094;
+}
+header{
+  float: none;
+}
+.gearContainer{
+  height: 27em;
+  width: 80%;
+  margin: 3em auto;
+  padding: 0 2em;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+.gearImage{
+  float: left;
+}
+.gearImage img{
+  height: 16em;
+  margin-top: 5em;
+}
+.gearDesc {
+  float: right;
+  width: 22em;
+  margin-top: 2em;
+}

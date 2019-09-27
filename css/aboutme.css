@@ -1,0 +1,19 @@
+body {
+  background-color: #548094;
+}
+header{
+  float: none;
+
+}
+
+#bioSection .bio {
+  background-color: grey;
+  margin: 3em;
+  padding: 3em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
+#bioSection .bio img{
+  height: 20em;
+  float: right;
+}

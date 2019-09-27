@@ -95,6 +95,7 @@ header {
   float:left;
   background: rgba(100,100,100,.6);
   width: 100%;
+  border-radius: 0 0 10px 10px;
 }
 #img-section {
   background-image: url("../img/fishermen.jpeg");
