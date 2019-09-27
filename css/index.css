@@ -171,6 +171,6 @@ footer .right img {
   height: 3em;
   padding-left: 2em;
 }
-footer .right img:last-of-type {
+footer .right a:last-of-type img {
   padding-right: 5em;
 }
