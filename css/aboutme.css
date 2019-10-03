@@ -1,19 +1,9 @@
-body {
-  background-color: #548094;
+.bio-section{
+  margin: 1em 3em;
+  padding: 1em 2em;
+  font-family: 'Archivo Narrow', sans-serif;
 }
-header{
-  float: none;
-
-}
-
-#bioSection .bio {
-  background-color: grey;
-  margin: 3em;
-  padding: 3em;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #000;
-}
-#bioSection .bio img{
-  height: 20em;
+.bio-section img{
   float: right;
+  height: 250px;
 }
